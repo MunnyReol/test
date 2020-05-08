@@ -29,11 +29,11 @@ margin-top: 80px;
 background-color: #D7DBFF;
 /*display: inline-block;*/
 display: absolute;
-/*minimum ðŸ‘‡*/
+/*minimum 👇*/
 width: 450px;
 margin-right: 1%;
 color: #000000;
-/* minimum ðŸ‘‡*/
+/* minimum 👇*/
 height: 550px;
 border-radius: 10px;
 box-shadow: 0 0 25px #000000;
@@ -73,13 +73,13 @@ text-align: center;
 .second-div-first{
 background-color: #D7DBFF;
 display: absolute;
-/* minimum ðŸ‘‡*/
+/* minimum 👇*/
 width: 450px;
 margin-left: 2vmax;
 margin-right: 1%;
 /*margin-top: -570px;*/
 color: #000000;
-/* minimumðŸ‘‡ */
+/* minimum👇 */
 height: 550px;
 /*float: right;*/
 border-radius: 10px;
@@ -92,11 +92,11 @@ float: left;
 background-color: #D7DBFF;
 /*display: inline-block;*/
 display: absolute;
-/*minimum ðŸ‘‡*/
+/*minimum 👇*/
 min-width: 450px;
 margin-right: 1%;
 color: #000000;
-/* minimum ðŸ‘‡*/
+/* minimum 👇*/
 min-height: 550px;
 border-radius: 10px;
 box-shadow: 0 0 25px #000000;
@@ -108,17 +108,35 @@ margin-top: 2%;
 }
 @media (min-width: 1200px)
 {
+
+.div-first{
+background-color: #D7DBFF;
+/*display: inline-block;*/
+display: absolute;
+/*minimum 👇*/
+width: 1125px;
+margin-right: 1%;
+color: #000000;
+/* minimum 👇*/
+height: 1225px;
+border-radius: 10px;
+box-shadow: 0 0 25px #000000;
+float: left;
+margin-left: 1%;
+margin-top: 2%;
+}
+
 .second-div-first{
 background-color: #D7DBFF;
 display: absolute;
-/* minimum ðŸ‘‡*/
-min-width: 450px;
+/* minimum 👇*/
+min-width: 1125px;
 margin-left: 2vmax;
 margin-right: 1%;
 /*margin-top: -570px;*/
 color: #000000;
-/* minimumðŸ‘‡ */
-min-height: 550px;
+/* minimum👇 */
+min-height: 1225px;
 /*float: right;*/
 border-radius: 10px;
 box-shadow: 0 0 25px #000000;
