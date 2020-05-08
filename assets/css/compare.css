@@ -18,20 +18,17 @@ display: block;
 margin-top: -80px;
 }
 .main{
-//background-color: black;
+background-color: black;
 margin-top: 80px;
 
 }
-
-@media (min-width: 770px)
-{
 .div-first{
 background-color: #D7DBFF;
 /*display: inline-block;*/
 display: absolute;
 /*minimum 👇*/
 width: 450px;
-margin-right: 1%;
+/*margin-right: 1%;*/
 color: #000000;
 /* minimum 👇*/
 height: 550px;
@@ -39,8 +36,7 @@ border-radius: 10px;
 box-shadow: 0 0 25px #000000;
 float: left;
 margin-left: 1%;
-margin-top: 2%;
-}
+margin-top: 2.25%;
 }
 .odometer{
 font-size: 70px;
@@ -68,8 +64,6 @@ text-align: center;
 .follower{
 text-align: center;
 }
-@media (min-width: 770px)
-{
 .second-div-first{
 background-color: #D7DBFF;
 display: absolute;
@@ -84,65 +78,8 @@ height: 550px;
 /*float: right;*/
 border-radius: 10px;
 box-shadow: 0 0 25px #000000;
-float: left;
+float: right;
 /*margin-top: 0%;*/
-}
-
-.div-first{
-background-color: #D7DBFF;
-/*display: inline-block;*/
-display: absolute;
-/*minimum 👇*/
-min-width: 450px;
-margin-right: 1%;
-color: #000000;
-/* minimum 👇*/
-min-height: 550px;
-border-radius: 10px;
-box-shadow: 0 0 25px #000000;
-float: left;
-margin-left: 1%;
-margin-top: 2%;
-}
-
-}
-@media (min-width: 1200px)
-{
-
-.div-first{
-background-color: #D7DBFF;
-/*display: inline-block;*/
-display: absolute;
-/*minimum 👇*/
-width: 1125px;
-margin-right: 1%;
-color: #000000;
-/* minimum 👇*/
-height: 1225px;
-border-radius: 10px;
-box-shadow: 0 0 25px #000000;
-float: left;
-margin-left: 1%;
-margin-top: 2%;
-}
-
-.second-div-first{
-background-color: #D7DBFF;
-display: absolute;
-/* minimum 👇*/
-min-width: 1125px;
-margin-left: 2vmax;
-margin-right: 1%;
-/*margin-top: -570px;*/
-color: #000000;
-/* minimum👇 */
-min-height: 1225px;
-/*float: right;*/
-border-radius: 10px;
-box-shadow: 0 0 25px #000000;
-float: left;
-/*margin-top: 0%;*/
-}
 }
 .logo2{
 margin-left: auto;
@@ -155,24 +92,9 @@ border-radius: 100%;
 box-shadow: 0 0 50px #000000;
 border: 2px solid blue; 
 }
-@media (min-width: 770px)
-{
 .deff{
 background-color: #D7DBFF;
 width: 450px;
-color: #000000;
-margin-top: 65%;
-margin-left: auto;
-margin-right: auto;
-border-radius: 10px;
-box-shadow: 0 0 25px #000000;
-}
-}
-@media (min-width: 1200px)
-{
-.deff{
-background-color: #D7DBFF;
-min-width: 450px;
 color: #000000;
 margin-top: 65%;
 margin-left: auto;
